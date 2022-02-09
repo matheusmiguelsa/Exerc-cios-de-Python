@@ -1,0 +1,7 @@
+i = int(input('Digite um valor: '))
+n = int(input('Digite outro valor: '))
+n1 = ('{}{}{}'.format('\033[1;30m', i, '\033[m'))
+n2 = ('{}{}{}'.format('\033[1;31m', n, '\033[m'))
+n3 = ('{}{}{}'.format('\033[1;32m', i + n, '\033[m'))
+xy = ('A soma entre {} e {} é {}'.format(n1, n2, n3))
+print('{}'.format(xy))
